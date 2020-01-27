@@ -68,8 +68,8 @@
 			isa = PBXGroup;
 			children = (
 				FCB2037523D23FC80094AFBE /* SearchVC.swift */,
-				FCB2037723D23FF40094AFBE /* FavoritesListVC.swift */,
 				FC40486823D6865000482F8D /* FollowerListVC.swift */,
+				FCB2037723D23FF40094AFBE /* FavoritesListVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -101,7 +101,6 @@
 				FCB2036323D237200094AFBE /* SceneDelegate.swift */,
 				FCB2036A23D237220094AFBE /* Assets.xcassets */,
 				FCB2036C23D237220094AFBE /* LaunchScreen.storyboard */,
-				FCB2036F23D237220094AFBE /* Info.plist */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -110,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				FCB2036023D237200094AFBE /* GHFollowers */,
+				FCB2036F23D237220094AFBE /* Info.plist */,
 				FCB2035F23D237200094AFBE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -354,7 +354,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C39EPG5VUE;
-				INFOPLIST_FILE = GHFollowers/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -372,7 +372,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C39EPG5VUE;
-				INFOPLIST_FILE = GHFollowers/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
