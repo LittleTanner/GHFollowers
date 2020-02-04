@@ -36,6 +36,8 @@
 		FCB2036E23D237220094AFBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB2036C23D237220094AFBE /* LaunchScreen.storyboard */; };
 		FCB2037623D23FC80094AFBE /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB2037523D23FC80094AFBE /* SearchVC.swift */; };
 		FCB2037823D23FF40094AFBE /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB2037723D23FF40094AFBE /* FavoritesListVC.swift */; };
+		FCC6D91023EA3691003B903E /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6D90F23EA3691003B903E /* Date+Ext.swift */; };
+		FCC6D91223EA36C5003B903E /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6D91123EA36C5003B903E /* String+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +72,8 @@
 		FCB2036F23D237220094AFBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCB2037523D23FC80094AFBE /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		FCB2037723D23FF40094AFBE /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
+		FCC6D90F23EA3691003B903E /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		FCC6D91123EA36C5003B903E /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,6 +214,8 @@
 			isa = PBXGroup;
 			children = (
 				FC40487023D7966800482F8D /* UIViewController+Ext.swift */,
+				FCC6D90F23EA3691003B903E /* Date+Ext.swift */,
+				FCC6D91123EA36C5003B903E /* String+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -329,6 +335,7 @@
 				FC36780623DF920000F80979 /* User.swift in Sources */,
 				FC40486723D631C900482F8D /* GFTextField.swift in Sources */,
 				FCB2037823D23FF40094AFBE /* FavoritesListVC.swift in Sources */,
+				FCC6D91223EA36C5003B903E /* String+Ext.swift in Sources */,
 				FC40486523D62E7700482F8D /* GFButton.swift in Sources */,
 				FC40487123D7966800482F8D /* UIViewController+Ext.swift in Sources */,
 				FC36781323E23FC200F80979 /* UIHelper.swift in Sources */,
@@ -345,6 +352,7 @@
 				FC36781F23E8B83A00F80979 /* GFError.swift in Sources */,
 				FC36780423DF913900F80979 /* Follower.swift in Sources */,
 				FC40486B23D78D1E00482F8D /* GFTitleLabel.swift in Sources */,
+				FCC6D91023EA3691003B903E /* Date+Ext.swift in Sources */,
 				FC36782323E8E49000F80979 /* GFSecondaryTitleLabel.swift in Sources */,
 				FC36781B23E3A3EE00F80979 /* GFEmptyStateView.swift in Sources */,
 				FC36780923DFB74900F80979 /* NetworkManager.swift in Sources */,
