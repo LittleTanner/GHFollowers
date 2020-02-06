@@ -70,5 +70,4 @@ class GFItemInfoView: UIView {
         
         countLabel.text = String(count)
     }
-    
 }

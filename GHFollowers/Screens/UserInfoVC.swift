@@ -32,7 +32,6 @@ class UserInfoVC: GFDataLoadingVC {
         configureScrollView()
         layoutUI()
         getUserInfo()
-        
     }
     
     func configureViewController() {
